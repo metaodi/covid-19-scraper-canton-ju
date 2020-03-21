@@ -1,1 +1,6 @@
-This is a scraper that runs on [Morph](https://morph.io). To get started [see the documentation](https://morph.io/documentation)
+Scraper for COVID-19 cases number in canton Jura
+=================================================
+
+This is a repo for a scraper of cantonal case numbers, it's based on the [#covid19mon hackathon challange](https://db.schoolofdata.ch/project/73).
+
+You can find the data on morph.io (as SQLite, CSV and API): https://morph.io/metaodi/covid-19-scraper-canton-ju
