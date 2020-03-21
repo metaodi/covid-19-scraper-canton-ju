@@ -32,27 +32,6 @@ c.execute(
 )
 conn.commit()
 
-c.execute(
-    '''
-    INSERT INTO data (
-        date,
-        time,
-        abbreviation_canton_and_fl,
-        ncumul_conf,
-        source
-    )
-    VALUES
-    (?,?,?,?,?)
-    ''',
-    [
-        '2020-03-19',
-        '16:00',
-        'JU',
-        27,
-        'https://www.jura.ch/fr/Autorites/Coronavirus/Accueil/Coronavirus-Informations-officielles-a-la-population-jurassienne.html',
-    ]
-)
-
 
 def parse_page(soup, conn):
     data = {
